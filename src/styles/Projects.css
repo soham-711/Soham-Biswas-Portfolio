@@ -1,0 +1,26 @@
+.project-swiper .swiper-pagination {
+   /* Push it well below the cards */
+  position: relative;
+  margin-top: 2rem; /* optional: add top margin */
+  text-align: center;
+}
+
+.project-swiper .swiper-pagination-bullet {
+  background-color: #94a3b8;
+  opacity: 0.5;
+}
+
+.project-swiper .swiper-pagination-bullet-active {
+  background-color: #22d3ee;
+  opacity: 1;
+}
+/* Hide vertical scrollbar but allow scroll */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}

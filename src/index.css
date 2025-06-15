@@ -1,0 +1,50 @@
+@import "tailwindcss";
+/* index.css */
+body {
+  font-family: 'Poppins', 'Inter', 'Fredoka', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar while keeping scroll functionality */
+.hide-scrollbar {
+  scrollbar-width: none;             /* Firefox */
+  -ms-overflow-style: none; 
+        /* IE 10+ */
+  /* ❌ remove overflow-y: hidden */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;                     /* Chrome, Safari */
+}
+
+
+/* index.css or App.css */
+
+/* Basic dark mode styling using custom class */
+
+body.dark-mode {
+  background-color: black;
+  color: red;
+}
+
+body.dark-mode nav {
+  background-color: black;
+}
+
+body.dark-mode a,
+body.dark-mode span {
+  color: #e0e0e0;
+}
+
+body.dark-mode .group-hover:text-cyan-400:hover {
+  color: #22d3ee;
+}
+
+body.dark-mode #root {
+  background-color: black;
+}
